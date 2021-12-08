@@ -1,5 +1,5 @@
 ### Usage
-1. Install opencv, you may need to edit `CMakeList.txt` to include opencv directory.
+1. Install opencv, you may need to edit `CMakeLists.txt` to include opencv directory.
 2. Use the following commands to compile the code:
 ```
 cmake .
