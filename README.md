@@ -2,10 +2,12 @@
 1. Install opencv, you may need to edit `CMakeLists.txt` to include opencv directory.
 2. Use the following commands to compile the code:
 ```
-cmake .
+mkdir build
+cd build
+cmake ..
 make
 ```
 3. Run:
 ```
-./seam_carving data/test_image.jpg
+./build/seam_carving data/test_image.jpg
 ```
